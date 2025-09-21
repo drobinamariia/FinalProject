@@ -1,0 +1,11 @@
+{
+  "name": "sharename-fullstack",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd sharename && python manage.py runserver\" \"cd frontend && npm start\"",
+    "dev": "concurrently \"cd sharename && python manage.py runserver\" \"cd frontend && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
