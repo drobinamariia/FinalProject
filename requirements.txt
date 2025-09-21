@@ -1,3 +1,8 @@
 Django==5.0
 djangorestframework==3.15.1
 djangorestframework-simplejwt==5.4.0
+django-phonenumber-field
+phonenumbers
+pycountry
+nameparser
+email-validator
